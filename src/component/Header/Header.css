@@ -1,0 +1,44 @@
+.header{
+    background-color:#1C2B35 ;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 80px;
+    position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+  
+  
+    
+   
+}
+.logout{
+    text-decoration: none;
+    
+    margin-left: 24px;
+    background-color: #1C2B35;
+    border: none;
+    color: white;
+    
+   
+    font-size: 15px;
+}
+.lader{
+    display: none;
+}
+
+ .link{
+    text-decoration: none;
+    padding-top: 33px;
+    padding-left: 36px;
+    color: white;
+    font-size: 1rem;
+}
+ .active-link{
+    text-decoration: none;
+    padding-top: 33px;
+    padding-left: 36px;
+    color: red;
+    font-size: 1rem;
+}
